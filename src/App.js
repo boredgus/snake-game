@@ -1,9 +1,13 @@
-import './App.css';
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Board from "./pages/Board";
 
 function App() {
   return (
     <div className="App">
-      snake game
+      <Header />
+      <Board />
+      <Footer />
     </div>
   );
 }
